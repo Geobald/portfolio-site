@@ -30,8 +30,8 @@ export default {
   },
   data () {
     return {
-      pageNotFound: '404',
-      otherError: 'Something has exploded'
+      pageNotFound: '404 - This page cannot be found.',
+      otherError: 'Something has exploded.'
     }
   }
 }
