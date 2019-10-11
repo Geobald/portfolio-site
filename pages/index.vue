@@ -46,7 +46,7 @@
         </v-col>
 
         <v-col>
-          <portfoliocard icon="mdi-account" title="Profile" :text="profiletextresult" underscore="true" />
+          <portfoliocard icon="mdi-account" :text="profiletextresult" title="Profile" underscore="true" />
         </v-col>
       </v-row>
       <v-row>
