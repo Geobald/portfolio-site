@@ -23,6 +23,7 @@
 
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
+      <div class="page-title"><h1>{{ title }}</h1></div>
       <!-- <v-spacer /> -->
     </v-app-bar>
 
@@ -47,25 +48,30 @@ export default {
       fixed: false,
       items: [
         {
-          icon: "mdi-apps",
+          icon: "mdi-account",
           title: "Profile",
           to: "/"
         },
         {
-          icon: "mdi-chart-bubble",
+          icon: "mdi-file-document-outline",
           title: "Resume",
           to: "/resume"
         },
         {
-          icon: "mdi-chart-bubble",
+          icon: "mdi-code-braces",
           title: "Projects",
           to: "/projects"
+        },
+        {
+          icon: "mdi-post-outline",
+          title: "Blog",
+          to: "/blog"
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "George Baldwin"
+      title: null
     };
   }
 };
