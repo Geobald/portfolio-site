@@ -19,13 +19,25 @@
               </v-list-item>
 
               <div class="text-center" style="padding:15px">
-                <v-btn text icon color="black">
+                <v-btn text icon color="black" href="https://github.com/Geobald" target="_blank">
                   <v-icon>mdi-github-circle</v-icon>
                 </v-btn>
-                <v-btn text icon color="black">
+                <v-btn
+                  text
+                  icon
+                  color="black"
+                  href="https://twitter.com/GeorgeBaldwin"
+                  target="_blank"
+                >
                   <v-icon>mdi-twitter-circle</v-icon>
                 </v-btn>
-                <v-btn text icon color="black">
+                <v-btn
+                  text
+                  icon
+                  color="black"
+                  href="https://www.linkedin.com/in/george-baldwin-04578230"
+                  target="_blank"
+                >
                   <v-icon>mdi-linkedin-box</v-icon>
                 </v-btn>
               </div>
@@ -34,12 +46,7 @@
         </v-col>
 
         <v-col>
-          <portfoliocard
-            icon="mdi-account"
-            title="Profile"
-            :text="portfolioText"
-            underscore="true"
-          />
+          <portfoliocard icon="mdi-account" title="Profile" :text="profiletextresult" underscore="true" />
         </v-col>
       </v-row>
       <v-row>
@@ -70,7 +77,7 @@
 <script>
 import portfoliocard from "@/components/portfoliocard";
 import profileimage from "@/components/profileimage";
-
+import portfoliotextservice from "@/components/text/portfoliotextservice";
 export default {
   components: {
     portfoliocard,
@@ -79,9 +86,18 @@ export default {
 
   data() {
     return {
-      portfolioText:
-        "Microsoft Certified Software Developer (MCSA, MCSD)currently involved with developing Sky Media's set of self-serve ad management and campaign analytics platforms, allowing users to plan, evaluate and optimize effectiveness across Digital, VoD, Broadcast TV, Addressable TV and Programmatic, all within an AGILE/SCRUM based environment. I am an enthusiastic, dedicated and learning agile person who loves building and sustaining relationships with clientele, as well as a wide range of practical Skill sets in both IT and administration as well as Music Composition. I enjoy working as part of a team but can take ownership of a project and enjoy completing tasks in a timely manner."
+      profiletext: "null"
     };
+  },
+
+   mounted() {
+    this.profiletext = portfoliotextservice.getprofiletext()
+  },
+
+  computed:{
+    profiletextresult() {
+       return this.profiletext ? this.profiletext : 'An error occurred';
+    }
   }
 };
 </script>
