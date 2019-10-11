@@ -1,14 +1,9 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
-      <div class="profile-picture">
-        <div>
-          <img src="/images/profile.jpg" alt="George Baldwin" />
-        </div>
 
-        <p>George Baldwin</p>
-        <p>Software Developer</p>
-      </div>
+<profileimage />
+
       <v-list>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-item-action>
@@ -23,7 +18,9 @@
 
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
-      <div class="page-title"><h1>{{ title }}</h1></div>
+      <div class="page-title">
+        <h1>Profile</h1>
+      </div>
       <!-- <v-spacer /> -->
     </v-app-bar>
 
@@ -40,9 +37,18 @@
 </template>
 
 <script>
+
+import profileimage from "@/components/profileimage";
+
 export default {
+
+    components: {
+    profileimage
+  },
+
   data() {
     return {
+      profileimage,
       clipped: false,
       drawer: true,
       fixed: false,
@@ -76,6 +82,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>
