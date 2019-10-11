@@ -1,10 +1,10 @@
 export
 <template>
   <div class="container">
-    <v-card> 
+    <v-card outlined> 
       <v-card-title class="headline">
           <v-icon left>{{ icon }}</v-icon> {{ title }}</v-card-title>
-      <hr v-if="underscore"/>
+                  <v-divider v-if="underscore"></v-divider>
       <v-card-text>
         <p>{{ text }}</p>
       </v-card-text>

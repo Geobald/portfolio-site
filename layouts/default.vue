@@ -1,9 +1,8 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
-
-<profileimage />
-
+      <profileimage header="George Baldwin" subtext="Software Developer" />
+      <v-divider /> 
       <v-list>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-item-action>
@@ -37,12 +36,10 @@
 </template>
 
 <script>
-
 import profileimage from "@/components/profileimage";
 
 export default {
-
-    components: {
+  components: {
     profileimage
   },
 

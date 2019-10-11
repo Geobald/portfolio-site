@@ -27,7 +27,7 @@ export default {
 <style>
 .profile-img {
   border-radius: 90%;
-  margin: 10%
+  margin: 15%
 }
 
 .profile-img-container {
