@@ -14,6 +14,26 @@ function getprofiletext() {
   return result;
 }
 
+function gettoolboxtext() {
+  var result = `
+  
+  <p>Besides playing around with HTML, CSS, and next-gen JS libraries, I juggle with a lot of frameworks and building tools to create great webapps. Here I have listed some of them:</p>
+
+  <ul>
+  <li>JavaScript ES6 + ES7</li>
+  <li>Node.js</li>
+  <li>Git/GitHub</li>
+  <li>ASP.NET MVC/.NET Core/Razor/Blazor</li>
+  <li>Webpack</li>
+  <li>Sass/SCSS/Less</li>
+  </ul>
+  
+  `;
+
+  return result;
+}
+
 export default {
-  getprofiletext
+  getprofiletext,
+  gettoolboxtext
 };

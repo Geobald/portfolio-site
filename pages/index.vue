@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <!-- PICTURE CARD -->
-        <v-col cols="12" xs="12" sm="12" md="3" lg="3">
+        <v-col cols="12" xs="12" sm="12" md="4" lg="3">
           <v-card outlined>
             <v-list-item three-line class="text-center">
               <v-list-item-content>
@@ -45,7 +45,7 @@
         </v-col>
 
         <!-- PROFILE CARD -->
-         <v-col cols="12" xs="12" sm="12" md="9" lg="9">
+        <v-col cols="12" xs="12" sm="12" md="8" lg="9">
           <v-card outlined>
             <v-card-title class="headline">
               <v-icon left>mdi-account</v-icon>Profile
@@ -59,26 +59,73 @@
       </v-row>
 
       <!-- NEXT ROW -->
+
+      <!-- SKILLS-->
       <v-row>
         <v-col>
           <portfoliocard icon="mdi-xml" title="Skills" text underscore="true" />
         </v-col>
 
-        <v-col>
-          <portfoliocard
-            icon="mdi-information-outline"
-            title="Info"
-            text="Test 123"
-            underscore="true"
-          />
+        <!-- INFO -->
+        <v-col cols="12" xs="12" sm="12" md="8" lg="9">
+          <v-card outlined>
+            <v-card-title class="headline">
+              <v-icon left>mdi-information-outline</v-icon>Information
+            </v-card-title>
+            <v-divider></v-divider>
+
+            <v-col>
+              <v-item left><b>Name:</b></v-item>
+              <v-item right>George Baldwin</v-item>
+            </v-col>
+            <v-divider></v-divider>
+
+              <v-col>
+              <v-item left><b>Age:</b></v-item>
+              <v-item right>32</v-item>
+            </v-col>
+            <v-divider></v-divider>
+            
+
+             <v-col>
+              <v-item left><b>Position:</b></v-item>
+              <v-item right>Developer</v-item>
+            </v-col>
+            <v-divider></v-divider>
+
+             <v-col>
+              <v-item left><b>Nationality:</b></v-item>
+              <v-item right>British</v-item>
+            </v-col>
+            <v-divider></v-divider>
+
+             <v-col>
+              <v-item left><b>Location:</b></v-item>
+              <v-item right>Brighton, UK</v-item>
+            </v-col>
+            <v-divider></v-divider>
+
+
+                         <v-col>
+              <v-item left><b>Email:</b></v-item>
+              <v-item right>Brighton, UK</v-item>
+            </v-col>
+
+
+          </v-card>
         </v-col>
-        <v-col>
-          <portfoliocard
-            icon="mdi-toolbox-outline"
-            title="Tooling"
-            text="Test 123"
-            underscore="true"
-          />
+
+        <!-- TOOLBOX -->
+        <v-col cols="12" xs="12" sm="12" md="8" lg="9">
+          <v-card outlined>
+            <v-card-title class="headline">
+              <v-icon left>mdi-toolbox-outline</v-icon>Tooling
+            </v-card-title>
+            <v-divider></v-divider>
+            <v-card-text>
+              <p v-html="toolboxtext"></p>
+            </v-card-text>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -97,17 +144,22 @@ export default {
 
   data() {
     return {
-      profiletext: null
+      profiletext: null,
+      toolboxtext: null
     };
   },
 
   mounted() {
     this.profiletext = portfoliotextservice.getprofiletext();
+    this.toolboxtext = portfoliotextservice.gettoolboxtext();
   },
 
   computed: {
     profiletextresult() {
       return this.profiletext ? this.profiletext : "An error occurred";
+    },
+    toolboxtextresult() {
+      return this.toolboxtext ? this.toolboxtext : "An error occurred";
     }
   }
 };

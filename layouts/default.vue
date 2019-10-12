@@ -1,5 +1,6 @@
 <template>
   <v-app>
+
     <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
       <profileimage header="George Baldwin" subtext="Software Developer" />
       <v-divider /> 
@@ -18,13 +19,13 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
-        <h1>Profile</h1>
+        <h2>Profile</h2>
       </div>
       <!-- <v-spacer /> -->
     </v-app-bar>
 
     <v-content>
-      <v-container>
+      <v-container style="margin-left:0px">
         <nuxt />
       </v-container>
     </v-content>
