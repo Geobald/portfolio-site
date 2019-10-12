@@ -1,12 +1,15 @@
 function getprofiletext() {
   var result = `
   
-  <b>Microsoft Certified Software Developer (MCSA, MCSD)</b> currently involved with developing Sky Media's set of self-serve ad management and campaign analytics platforms, 
-  allowing users to plan, evaluate and optimize effectiveness across Digital, VoD, Broadcast TV, Addressable TV and Programmatic, all within an AGILE/SCRUM based environment. 
+  <p><b>Microsoft Certified Software Developer (MCSA, MCSD)​</b> offering over 8 years of experience in Microsoft .NET, Apple FileMaker and JAMStack technologies. 
+  I am a Creative and dynamic developer with proven expertise in consistently delivering scalable solutions in AGILE and SCRUM based teams.</p>
+
+  <p>I have worked with all sorts of businesses on bulilding scalable solutions, from startup retail businesses all the way up to distributed enterprise solutions for fortune 100 companies.</p>
+
+  <p>I Leverage exemplary communication and in-person meetings to establish presence while fostering continuous client engagement, and am Adept at working effectively to achieve goals 
+  both as a cross-functional team member and individual contributor.</p>
   
-  I am an enthusiastic, dedicated and learning agile person who loves building and sustaining relationships with clientele, as well as a wide range of practical Skill sets in both IT and administration 
-  as well as Music Composition. I enjoy working as part of a team but can take ownership of a project and enjoy completing tasks in a timely manner.`
-  ;
+  `;
 
   return result;
 }

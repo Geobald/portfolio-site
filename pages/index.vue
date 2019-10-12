@@ -46,7 +46,20 @@
         </v-col>
 
         <v-col>
-          <portfoliocard icon="mdi-account" :text="profiletextresult" title="Profile" underscore="true" />
+        
+  <div class="container">
+    <v-card outlined> 
+      <v-card-title class="headline">
+          <v-icon left>mdi-account</v-icon> Profile</v-card-title>
+                  <v-divider></v-divider>
+      <v-card-text>
+        <p v-html="profiletext"></p>
+      </v-card-text>
+    </v-card>
+  </div>
+
+
+
         </v-col>
       </v-row>
       <v-row>
@@ -86,7 +99,7 @@ export default {
 
   data() {
     return {
-      profiletext: "null"
+      profiletext: null
     };
   },
 
