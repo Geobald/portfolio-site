@@ -9,6 +9,7 @@ function getprofiletext() {
   <p>I Leverage exemplary communication and in-person meetings to establish presence while fostering continuous client engagement, and am Adept at working effectively to achieve goals 
   both as a cross-functional team member and individual contributor.</p>
   
+  <p>For more examples of my work, please check out my GitHub and work information in the Projects section of this site.</p>
   `;
 
   return result;
