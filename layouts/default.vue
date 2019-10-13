@@ -19,20 +19,15 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
-        <h2>Profile</h2>
+        <h3>Profile</h3>
       </div>
-      <!-- <v-spacer /> -->
     </v-app-bar>
 
     <v-content>
-      <v-container style="margin-left:0px" v-resize="onResize">
+      <v-container style="margin-left:0px">
         <nuxt />
       </v-container>
     </v-content>
-
-    <v-footer :fixed="fixed" app>
-      <span>&copy; 2019</span>
-    </v-footer>
   </v-app>
 </template>
 
@@ -80,15 +75,9 @@ export default {
     };
   },
     mounted () {
-    this.onResize()
-  },
-
-  methods: {
-    // If the window size is mobile, then close the drawer on open, otherwise leave it open
-    onResize () {
+      // Hide Drawer menu on mobile devices by default
       this.windowWidth = window.innerWidth;
       this.windowWidth < 960 ? this.drawer = false : this.drawer = true;
-    }
   }
 };
 </script>

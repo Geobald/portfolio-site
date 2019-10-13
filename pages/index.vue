@@ -2,6 +2,7 @@
   <v-layout>
     <v-container fluid>
       <v-row>
+        
         <!-- PICTURE CARD -->
         <v-col cols="12" xs="12" sm="12" md="4">
           <v-card outlined height="100%">
@@ -68,27 +69,27 @@
             <v-card-text>
               <v-col style="color:purple">
                 <v-icon color="purple">mdi-language-csharp</v-icon><b> .NET</b> 
-                <v-progress-linear v-model="csharp" color="purple" height="25" reactive></v-progress-linear>
+                <v-progress-linear v-model="csharp" color="purple" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:grey">
                 <v-icon color="grey">mdi-folder-open</v-icon><b> FileMaker</b>
-                <v-progress-linear v-model="filemaker" color="grey" height="25" reactive></v-progress-linear>
+                <v-progress-linear v-model="filemaker" color="grey" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:blue">
                 <v-icon color="blue">mdi-language-html5</v-icon><b> HTML5</b>
-                <v-progress-linear v-model="html" color="blue" height="25" reactive></v-progress-linear>
+                <v-progress-linear v-model="html" color="blue" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:orange">
                 <v-icon color="orange">mdi-language-css3</v-icon><b> CSS3</b>
-                <v-progress-linear v-model="css" color="orange" height="25" reactive></v-progress-linear>
+                <v-progress-linear v-model="css" color="orange" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:red">
                 <v-icon color="red">mdi-language-javascript</v-icon><b> Javascript</b>
-                <v-progress-linear v-model="javascript" color="red" height="25" reactive></v-progress-linear>
+                <v-progress-linear v-model="javascript" color="red" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:green">
-                <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js and Vuetify</b>
-                <v-progress-linear v-model="vue" color="green" height="25" reactive></v-progress-linear>
+                <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js</b>
+                <v-progress-linear v-model="vue" color="green" height="25" rounded></v-progress-linear>
               </v-col>
             </v-card-text>
           </v-card>
@@ -167,6 +168,7 @@
             </v-card-text>
           </v-card>
         </v-col>
+
       </v-row>
     </v-container>
   </v-layout>
