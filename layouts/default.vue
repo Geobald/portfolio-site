@@ -15,9 +15,9 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
+     <!-- class="d-lg-none" -->
     <v-app-bar :clipped-left="clipped" fixed app>
-      <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <div class="page-title">
         <h2>Profile</h2>
       </div>
@@ -48,7 +48,7 @@ export default {
     return {
       profileimage,
       clipped: false,
-      drawer: true,
+      drawer: false,
       fixed: false,
       items: [
         {
