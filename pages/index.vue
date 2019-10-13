@@ -4,7 +4,7 @@
       <v-row>
         <!-- PICTURE CARD -->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-list-item three-line class="text-center">
               <v-list-item-content>
                 <div style="padding:20px">
@@ -46,7 +46,7 @@
 
         <!-- PROFILE CARD -->
         <v-col cols="12" xs="12" sm="12" md="8">
-          <v-card outlined>
+          <v-card outlined height="100%">
             <v-card-title class="headline">
               <v-icon left>mdi-account</v-icon>Profile
             </v-card-title>
@@ -110,17 +110,17 @@
 
               </tbody>
             </v-simple-table>
-<v-divider/>
+          <v-divider/>
             <v-col>
               <code style="width:100%">
                 <div>
-                  <span style="color:red">let</span> $x<span style="color:red">=</span><span style="color:blue">'georgebaldwin'</span>;
+                  <span style="color:red"> let</span> $x <span style="color:red">=</span><span style="color:blue"> 'georgebaldwin'</span>;
                 </div>
                 <div>
-                  <span style="color:red">let</span> $y<span style="color:red">=</span><span style="color:blue">'me'</span>;
+                  <span style="color:red"> let</span> $y <span style="color:red">=</span><span style="color:blue"> 'me'</span>;
                 </div>
                 <!-- <div>&nbsp;</div>  -->
-                <div><span style="color:purple">console</span>.<span style="color:blue">log</span>($x<span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y<span style="color:red">+</span><span style="color:blue">'.com'</span>);
+                <div><span style="color:purple"> console</span>.<span style="color:blue">log</span>( $x <span style="color:red"> + </span><span style="color:blue"> '@' </span><span style="color:red"> + </span> $y <span style="color:red"> + </span><span style="color:blue">'.com'</span>);
                 </div>
               </code>
             </v-col>
