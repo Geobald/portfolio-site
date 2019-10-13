@@ -57,13 +57,41 @@
           </v-card>
         </v-col>
 
-        <!-- END ROW -->
-
-        <!-- NEXT ROW -->
-
         <!-- SKILLS-->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <portfoliocard icon="mdi-xml" title="Skills" text underscore="true" />
+          <v-card outlined>
+            <v-card-title class="headline">
+              <v-icon left>mdi-xml</v-icon>Skills
+            </v-card-title>
+            <v-divider></v-divider>
+
+            <v-card-text>
+              <v-col style="color:purple">
+                <v-icon color="purple">mdi-language-csharp</v-icon><b> .NET</b> 
+                <v-progress-linear v-model="csharp" color="purple" height="25" reactive></v-progress-linear>
+              </v-col>
+              <v-col style="color:grey">
+                <v-icon color="grey">mdi-folder-open</v-icon><b> FileMaker</b>
+                <v-progress-linear v-model="filemaker" color="grey" height="25" reactive></v-progress-linear>
+              </v-col>
+              <v-col style="color:blue">
+                <v-icon color="blue">mdi-language-html5</v-icon><b> HTML5</b>
+                <v-progress-linear v-model="html" color="blue" height="25" reactive></v-progress-linear>
+              </v-col>
+              <v-col style="color:orange">
+                <v-icon color="orange">mdi-language-css3</v-icon><b> CSS3</b>
+                <v-progress-linear v-model="css" color="orange" height="25" reactive></v-progress-linear>
+              </v-col>
+              <v-col style="color:red">
+                <v-icon color="red">mdi-language-javascript</v-icon><b> Javascript</b>
+                <v-progress-linear v-model="javascript" color="red" height="25" reactive></v-progress-linear>
+              </v-col>
+              <v-col style="color:green">
+                <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js and Vuetify</b>
+                <v-progress-linear v-model="vue" color="green" height="25" reactive></v-progress-linear>
+              </v-col>
+            </v-card-text>
+          </v-card>
         </v-col>
 
         <!-- INFO -->
@@ -72,7 +100,7 @@
             <v-card-title class="headline">
               <v-icon left>mdi-information-outline</v-icon>Information
             </v-card-title>
-            <v-divider/>
+            <v-divider />
 
             <v-simple-table>
               <tbody>
@@ -107,20 +135,20 @@
                   </td>
                   <td>Brighton, UK</td>
                 </tr>
-
               </tbody>
             </v-simple-table>
-          <v-divider/>
+            <v-divider />
             <v-col>
               <code style="width:100%">
                 <div>
-                  <span style="color:red"> let</span> $x <span style="color:red">=</span><span style="color:blue"> 'georgebaldwin'</span>;
+                  <span style="color:red"> let</span> $x<span style="color:red">=</span><span style="color:blue">'georgebaldwin'</span>;
                 </div>
                 <div>
-                  <span style="color:red"> let</span> $y <span style="color:red">=</span><span style="color:blue"> 'me'</span>;
+                  <span style="color:red"> let</span> $y<span style="color:red">=</span><span style="color:blue">'me'</span>;
                 </div>
                 <!-- <div>&nbsp;</div>  -->
-                <div><span style="color:purple"> console</span>.<span style="color:blue">log</span>( $x <span style="color:red"> + </span><span style="color:blue"> '@' </span><span style="color:red"> + </span> $y <span style="color:red"> + </span><span style="color:blue">'.com'</span>);
+                <div>
+                  <span style="color:purple"> console</span>.<span style="color:blue">log</span>( $x<span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y<span style="color:red">+</span><span style="color:blue">'.com'</span>);
                 </div>
               </code>
             </v-col>
@@ -157,7 +185,13 @@ export default {
   data() {
     return {
       profiletext: null,
-      toolboxtext: null
+      toolboxtext: null,
+      csharp: 98,
+      filemaker: 97,
+      html: 95,
+      css: 85,
+      javascript: 75,
+      vue:65
     };
   },
 
