@@ -24,7 +24,7 @@ function gettoolboxtext() {
   <li>JavaScript ES6 + ES7</li>
   <li>Node.js</li>
   <li>Git/GitHub</li>
-  <li>ASP.NET MVC/.NET Core/Razor/Blazor</li>
+  <li>ASP.NET MVC/.NET Core</li>
   <li>Webpack</li>
   <li>Sass/SCSS/Less</li>
   </ul>

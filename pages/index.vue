@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <!-- PICTURE CARD -->
-        <v-col cols="12" xs="12" sm="12" md="4" lg="3">
+        <v-col cols="12" xs="12" sm="12" md="4">
           <v-card outlined>
             <v-list-item three-line class="text-center">
               <v-list-item-content>
@@ -45,7 +45,7 @@
         </v-col>
 
         <!-- PROFILE CARD -->
-        <v-col cols="12" xs="12" sm="12" md="8" lg="9">
+        <v-col cols="12" xs="12" sm="12" md="8">
           <v-card outlined>
             <v-card-title class="headline">
               <v-icon left>mdi-account</v-icon>Profile
@@ -58,18 +58,18 @@
         </v-col>
 
         <!-- END ROW -->
-      </v-row>
+
 
       <!-- NEXT ROW -->
-      <v-row>
+
         
         <!-- SKILLS-->
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4">
+        <v-col cols="12" xs="12" sm="12" md="4">
           <portfoliocard icon="mdi-xml" title="Skills" text underscore="true" />
         </v-col>
 
         <!-- INFO -->
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4">
+        <v-col cols="12" xs="12" sm="12" md="4">
           <v-card outlined>
             <v-card-title class="headline">
               <v-icon left>mdi-information-outline</v-icon>Information
@@ -126,7 +126,7 @@
         </v-col>
 
         <!-- TOOLBOX -->
-        <v-col cols="12" xs="12" sm="12" md="4" lg="4">
+        <v-col cols="12" xs="12" sm="12" md="4">
           <v-card outlined>
             <v-card-title class="headline">
               <v-icon left>mdi-toolbox-outline</v-icon>Tooling
