@@ -15,9 +15,9 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-     <!-- class="d-lg-none" -->
+
     <v-app-bar :clipped-left="clipped" fixed app>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
         <h2>Profile</h2>
       </div>
@@ -25,7 +25,7 @@
     </v-app-bar>
 
     <v-content>
-      <v-container style="margin-left:0px">
+      <v-container style="margin-left:0px" v-resize="onResize">
         <nuxt />
       </v-container>
     </v-content>
@@ -50,6 +50,7 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
+      windowWidth: 0,
       items: [
         {
           icon: "mdi-account",
@@ -77,6 +78,17 @@ export default {
       rightDrawer: false,
       title: null
     };
+  },
+    mounted () {
+    this.onResize()
+  },
+
+  methods: {
+    // If the window size is mobile, then close the drawer on open, otherwise leave it open
+    onResize () {
+      this.windowWidth = window.innerWidth;
+      this.windowWidth < 960 ? this.drawer = false : this.drawer = true;
+    }
   }
 };
 </script>
