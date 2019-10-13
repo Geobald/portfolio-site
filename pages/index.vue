@@ -59,10 +59,8 @@
 
         <!-- END ROW -->
 
+        <!-- NEXT ROW -->
 
-      <!-- NEXT ROW -->
-
-        
         <!-- SKILLS-->
         <v-col cols="12" xs="12" sm="12" md="4">
           <portfoliocard icon="mdi-xml" title="Skills" text underscore="true" />
@@ -74,53 +72,57 @@
             <v-card-title class="headline">
               <v-icon left>mdi-information-outline</v-icon>Information
             </v-card-title>
-            <v-divider></v-divider>
+            <v-divider/>
 
-            <v-col>
-              <v-item left>
-                <b>Name:</b>
-              </v-item>
-              <v-item right>George Baldwin</v-item>
-            </v-col>
-            <v-divider></v-divider>
+            <v-simple-table>
+              <tbody>
+                <tr>
+                  <td>
+                    <b>Name:</b>
+                  </td>
+                  <td>George Baldwin</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Age:</b>
+                  </td>
+                  <td>32</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Position:</b>
+                  </td>
+                  <td>Developer</td>
+                </tr>
 
-            <v-col>
-              <v-item left>
-                <b>Age:</b>
-              </v-item>
-              <v-item right>32</v-item>
-            </v-col>
-            <v-divider></v-divider>
+                <tr>
+                  <td>
+                    <b>Nationality:</b>
+                  </td>
+                  <td>British</td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Location:</b>
+                  </td>
+                  <td>Brighton, UK</td>
+                </tr>
 
+              </tbody>
+            </v-simple-table>
+<v-divider/>
             <v-col>
-              <v-item left>
-                <b>Position:</b>
-              </v-item>
-              <v-item right>Developer</v-item>
-            </v-col>
-            <v-divider></v-divider>
-
-            <v-col>
-              <v-item left>
-                <b>Nationality:</b>
-              </v-item>
-              <v-item right>British</v-item>
-            </v-col>
-            <v-divider></v-divider>
-
-            <v-col>
-              <v-item left>
-                <b>Location:</b>
-              </v-item>
-              <v-item right>Brighton, UK</v-item>
-            </v-col>
-            <v-divider></v-divider>
-
-            <v-col>
-              <v-item left>
-                <b>Email:</b>
-              </v-item>
-              <v-item right>Brighton, UK</v-item>
+              <code style="width:100%">
+                <div>
+                  <span style="color:red">let</span> $x<span style="color:red">=</span><span style="color:blue">'georgebaldwin'</span>;
+                </div>
+                <div>
+                  <span style="color:red">let</span> $y<span style="color:red">=</span><span style="color:blue">'me'</span>;
+                </div>
+                <!-- <div>&nbsp;</div>  -->
+                <div><span style="color:purple">console</span>.<span style="color:blue">log</span>($x<span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y<span style="color:red">+</span><span style="color:blue">'.com'</span>);
+                </div>
+              </code>
             </v-col>
           </v-card>
         </v-col>
