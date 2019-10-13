@@ -44,11 +44,11 @@
           </v-card>
         </v-col>
 
-        <!-- PROFILE CARD -->
+        <!-- ABOUT ME CARD -->
         <v-col cols="12" xs="12" sm="12" md="8">
           <v-card outlined height="100%">
             <v-card-title class="headline">
-              <v-icon left>mdi-account</v-icon>Profile
+              <v-icon left>mdi-account</v-icon>About Me
             </v-card-title>
             <v-divider></v-divider>
             <v-card-text>
@@ -141,14 +141,14 @@
             <v-col>
               <code style="width:100%">
                 <div>
-                  <span style="color:red"> let</span> $x<span style="color:red">=</span><span style="color:blue">'georgebaldwin'</span>;
+                  <span style="color:red"> let</span> $x <span style="color:red">=</span><span style="color:blue"> 'georgebaldwin'</span>;
                 </div>
                 <div>
-                  <span style="color:red"> let</span> $y<span style="color:red">=</span><span style="color:blue">'me'</span>;
+                  <span style="color:red"> let</span> $y <span style="color:red">=</span><span style="color:blue"> 'me'</span>;
                 </div>
                 <!-- <div>&nbsp;</div>  -->
                 <div>
-                  <span style="color:purple"> console</span>.<span style="color:blue">log</span>( $x<span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y<span style="color:red">+</span><span style="color:blue">'.com'</span>);
+                  <span style="color:purple"> console</span>.<span style="color:blue">log</span>($x <span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y <span style="color:red">+</span><span style="color:blue"> '.com'</span>);
                 </div>
               </code>
             </v-col>
