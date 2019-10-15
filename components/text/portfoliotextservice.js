@@ -21,12 +21,12 @@ function gettoolboxtext() {
   <p>Besides playing around with HTML, CSS, and next-gen JS libraries, I juggle with a lot of frameworks and building tools to create great webapps. Here I have listed some of them:</p>
 
   <ul>
-  <li>JavaScript ES6 + ES7</li>
-  <li>Node.js</li>
+  <li>Netlify</li>
+  <li>TeamCity</li>
   <li>Git/GitHub</li>
-  <li>ASP.NET MVC/.NET Core</li>
+  <li>Octopus Deploy</li>
   <li>Webpack</li>
-  <li>Sass/SCSS/Less</li>
+  <li>SQL Server</li>
   </ul>
   
   `;
