@@ -1,9 +1,8 @@
 <template>
   <v-app>
-
     <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
       <profileimage header="George Baldwin" subtext="Software Developer" />
-      <v-divider /> 
+      <v-divider />
       <v-list>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
           <v-list-item-action>
@@ -19,7 +18,7 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
-        <h3>Profile</h3>
+        <h3 v-text="windowTitleResult"></h3>
       </div>
     </v-app-bar>
 
@@ -74,10 +73,35 @@ export default {
       title: null
     };
   },
-    mounted () {
-      // Hide Drawer menu on mobile devices by default
-      this.windowWidth = window.innerWidth;
-      this.windowWidth < 960 ? this.drawer = false : this.drawer = true;
+  mounted() {
+    // Hide Drawer menu on mobile devices by default
+    this.windowWidth = window.innerWidth;
+    this.windowWidth < 960 ? (this.drawer = false) : (this.drawer = true);
+  },
+  computed: {
+    windowTitleResult() {
+      var routeName = this.$nuxt.$route.name;
+      switch (routeName) {
+        case "index":
+          return "Profile";
+          break;
+
+        case "resume":
+          return "Resume";
+          break;
+
+        case "projects":
+          return "Projects";
+          break;
+
+        case "blog":
+          return "Blog";
+          break;
+
+        default:
+          return routeName? routeName : "George Baldwin | Software Developer";
+      }
+    }
   }
 };
 </script>
