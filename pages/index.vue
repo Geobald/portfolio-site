@@ -99,7 +99,9 @@
                 <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js</b>
                 <v-progress-linear value="55" color="green" height="25" rounded></v-progress-linear>
               </v-col>
-              <v-col><v-btn color="primary">Download CV</v-btn></v-col>
+              <v-col>
+                <v-btn color="primary">Download CV</v-btn>
+              </v-col>
             </v-card-text>
           </v-card>
           </v-fade-transition>
