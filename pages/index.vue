@@ -6,7 +6,7 @@
         <!-- PICTURE CARD -->
         <v-col cols="12" xs="12" sm="12" md="4">
           <v-progress-circular indeterminate v-if="!profiletext"/>
-          <v-slide-y-transition>
+          <v-fade-transition>
           <v-card outlined height="100%" v-if="profiletext" v-show="true">
             <v-list-item three-line class="text-center">
               <v-list-item-content>
@@ -45,13 +45,13 @@
               </v-btn>
             </div>
           </v-card>
-          </v-slide-y-transition>
+          </v-fade-transition>
         </v-col>
 
         <!-- ABOUT ME CARD -->
         <v-col cols="12" xs="12" sm="12" md="8">
           <v-progress-circular indeterminate v-if="!profiletext"/>
-          <v-slide-y-transition>
+          <v-fade-transition>
           <v-card outlined height="100%" v-if="profiletext" v-show="true">
             <v-card-title class="headline">
               <v-icon left>mdi-account</v-icon>About Me
@@ -61,13 +61,13 @@
               <p v-html="profiletext"></p>
             </v-card-text>
           </v-card>
-          </v-slide-y-transition>
+          </v-fade-transition>
         </v-col>
 
         <!-- SKILLS-->
         <v-col cols="12" xs="12" sm="12" md="4">
           <v-progress-circular indeterminate v-if="!toolboxtext"/>
-          <v-slide-y-transition>
+          <v-fade-transition>
           <v-card outlined v-if="profiletext" v-show="true"> 
             <v-card-title class="headline">
               <v-icon left>mdi-xml</v-icon>Skills
@@ -77,7 +77,7 @@
             <v-card-text>
               <v-col style="color:purple">
                 <v-icon color="purple">mdi-language-csharp</v-icon><b> .NET</b> 
-                <v-progress-linear value="90" color="purple" height="25" rounded></v-progress-linear>
+                <v-progress-linear value="95" color="purple" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col style="color:grey">
                 <v-icon color="grey">mdi-folder-open</v-icon><b> FileMaker</b>
@@ -99,15 +99,16 @@
                 <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js</b>
                 <v-progress-linear value="55" color="green" height="25" rounded></v-progress-linear>
               </v-col>
+              <v-col><v-btn color="primary">Download CV</v-btn></v-col>
             </v-card-text>
           </v-card>
-          </v-slide-y-transition>
+          </v-fade-transition>
         </v-col>
 
         <!-- INFO -->
         <v-col cols="12" xs="12" sm="12" md="4">
           <v-progress-circular indeterminate v-if="!toolboxtext"/>
-          <v-slide-y-transition>
+          <v-fade-transition>
           <v-card outlined v-if="profiletext" v-show="true">
             <v-card-title class="headline">
               <v-icon left>mdi-information-outline</v-icon>Information
@@ -165,13 +166,13 @@
               </code>
             </v-col>
           </v-card>
-          </v-slide-y-transition>
+          </v-fade-transition>
         </v-col>
 
         <!-- TOOLBOX -->
         <v-col cols="12" xs="12" sm="12" md="4">
           <v-progress-circular indeterminate v-if="!toolboxtext"/>
-          <v-slide-y-transition>
+          <v-fade-transition>
           <v-card outlined v-if="toolboxtext" v-show="true">
             <v-card-title class="headline">
               <v-icon left>mdi-toolbox-outline</v-icon>Tooling
@@ -181,7 +182,7 @@
               <p v-html="toolboxtext"></p>
             </v-card-text>
           </v-card>
-          </v-slide-y-transition>
+          </v-fade-transition>
         </v-col>
 
       </v-row>
