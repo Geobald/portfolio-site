@@ -100,7 +100,7 @@
                 <v-progress-linear value="55" color="green" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col>
-                <v-btn color="primary">Download CV</v-btn>
+                <v-btn :href="pdf" target="_blank" color="primary" download>Download CV</v-btn>
               </v-col>
             </v-card-text>
           </v-card>
@@ -196,16 +196,20 @@
 import portfoliocard from "@/components/portfoliocard";
 import profileimage from "@/components/profileimage";
 import portfoliotextservice from "@/components/text/portfoliotextservice";
+import pdf from '@/files/resumegeorgebaldwin.pdf'
+
 export default {
   components: {
     portfoliocard,
     profileimage
+    
   },
 
   data() {
     return {
       profiletext: null,
-      toolboxtext: null
+      toolboxtext: null,
+      pdf
     };
   },
 
