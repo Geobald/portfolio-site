@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" color="grey lighten-3" fixed app>
+    <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" color="grey lighten-2" fixed app>
       <profileimage header="George Baldwin" subtext="Software Developer" />
       <v-divider />
       <v-list>
