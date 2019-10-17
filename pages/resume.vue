@@ -263,7 +263,7 @@
               </v-container>
             </v-card>
             <v-timeline dense>
-              <v-timeline-item color="yellow darken-2">
+              <v-timeline-item color="green darken-2">
                 <v-card flat>
                   <div class="title font-weight-light" style="padding-left:16px">BA Hons Degree in Modern Music Composition</div>
                   <v-card-text>The programme covers many key subject areas including music performance, instrumental and vocal technique, songwriting and arranging, recording, mixing, mastering, social media, business studies, music history, tour management, live events and national touring. The BA (Hons) programme incorporates a set of modules that cover a broad range of subject areas. These modules underpin the development of a well-rounded skill set associated with the requirements for a stable career in the music industry. Modules are grouped into four key strands – Musical Development, Popular Music Studies, Audio Production and Music Industry.</v-card-text>
