@@ -16,10 +16,11 @@
 
             <v-img :src="require('@/images/githublogo.jpg')" alt="Sky" height="194"></v-img>
 
-            <v-card-text>Visit ten places on our planet that are undergoing the biggest changes today.</v-card-text>
+            <v-card-text>A simple guide to migrate over from TFS to Git.</v-card-text>
 
             <v-card-actions>
-              <v-btn text color="primary">Read Article</v-btn>
+              <v-btn text color="grey">Coming Soon...</v-btn>
+              <!-- <v-btn text color="primary">Read Article</v-btn> -->
               <v-spacer></v-spacer>
               <v-btn icon>
                 <v-icon>mdi-share-variant</v-icon>

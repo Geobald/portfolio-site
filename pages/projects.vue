@@ -18,7 +18,7 @@
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="primary" text>View On GitHub</v-btn>
+              <v-btn href="https://github.com/Geobald/RoyaltyEngine" target="_blank" color="primary" text>View On GitHub</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -38,7 +38,7 @@
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="primary" text>View On GitHub</v-btn>
+              <v-btn href="https://github.com/Geobald/party-parrot-chess" target="_blank" color="primary" text>View On GitHub</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -90,15 +90,15 @@
               :src="require('@/images/githublogo.jpg')"
               alt="Sky"
             >
-              <v-card-title>Ray Russell Official Website</v-card-title>
+              <v-card-title>My Portfolio Website</v-card-title>
             </v-img>
 
             <v-card-text class="text--primary">
-              <div>A website created using Nuxt and Vue for the guitarist and composer Ray Russell.</div>
+              <div>My portfolio website created using Nuxt and Vue and using FaunaDB for blogging data storage.</div>
             </v-card-text>
 
             <v-card-actions>
-              <v-btn color="grey" text>Coming soon...</v-btn>
+              <v-btn href="https://github.com/Geobald/portfolio-site" target="_blank" color="primary" text>View On GitHub</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
