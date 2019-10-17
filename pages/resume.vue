@@ -136,7 +136,7 @@
                   <v-avatar height="100" width="70" tile>
                     <img
                       :src="require('@/images/microsoftlogo.png')"
-                      alt="iSOS"
+                      alt="Microsoft"
                       style="padding-top:30px"
                     />
                   </v-avatar>
@@ -224,7 +224,7 @@
                   <v-avatar height="100" width="70" tile>
                     <img
                       :src="require('@/images/filemakerlogo.jpg')"
-                      alt="iSOS"
+                      alt="FileMaker"
                       style="padding-top:30px"
                     />
                   </v-avatar>
@@ -252,7 +252,7 @@
                   <v-avatar height="110" width="80" tile>
                     <img
                       :src="require('@/images/unilogo.jpg')"
-                      alt="iSOS"
+                      alt="University of Sussex"
                       style="padding-top:30px"
                     />
                   </v-avatar>
