@@ -28,7 +28,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-                <v-col>
+        <v-col>
           <v-card>
             <v-list-item>
               <v-list-item-avatar>
