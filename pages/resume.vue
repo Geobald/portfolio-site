@@ -15,13 +15,13 @@
             <v-card light flat>
               <v-container>
                 <v-layout align-left>
-                  <v-avatar height="85" width="80" tile>
+                  <v-avatar height="80" width="80" tile>
                     <img :src="require('@/images/skylogo.png')" 
                     alt="Sky" 
                     style="padding-top:30px"
                     />
                   </v-avatar>
-                  <v-layout column justify-center style="padding-top:20px; padding-left:20px">
+                  <v-layout column justify-center style="padding-top:30px; padding-left:20px">
                     <div class="title font-weight-medium">Software Developer</div>
                     <div class="text font-weight-light">2015 - Present</div>
                   </v-layout>
