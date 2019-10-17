@@ -94,7 +94,7 @@
               </v-col>
               <v-col style="color:green">
                 <v-icon color="green">mdi-vuejs</v-icon><v-icon color="green"></v-icon><b> Vue.js</b>
-                <v-progress-linear value="55" color="green" height="25" rounded></v-progress-linear>
+                <v-progress-linear value="45" color="green" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col>
                 <v-btn :href="pdf" target="_blank" color="primary" download>Download CV</v-btn>
