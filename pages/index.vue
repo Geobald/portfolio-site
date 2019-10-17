@@ -64,7 +64,6 @@
 
         <!-- SKILLS-->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <v-progress-circular indeterminate v-if="!toolboxtext"/>
           <v-fade-transition>
           <v-card outlined v-if="profiletext" v-show="true"> 
             <v-card-title class="headline">
@@ -107,7 +106,6 @@
 
         <!-- INFO -->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <v-progress-circular indeterminate v-if="!toolboxtext"/>
           <v-fade-transition>
           <v-card outlined v-if="profiletext" v-show="true">
             <v-card-title class="headline">
@@ -171,7 +169,6 @@
 
         <!-- TOOLBOX -->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <v-progress-circular indeterminate v-if="!toolboxtext"/>
           <v-fade-transition>
           <v-card outlined v-if="toolboxtext" v-show="true">
             <v-card-title class="headline">

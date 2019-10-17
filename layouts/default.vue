@@ -1,6 +1,13 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" color="grey lighten-2" fixed app>
+    <v-navigation-drawer
+      v-model="drawer"
+      :mini-variant="miniVariant"
+      :clipped="clipped"
+      color="grey lighten-2"
+      fixed
+      app
+    >
       <profileimage header="George Baldwin" subtext="Software Developer" />
       <v-divider />
       <v-list>
@@ -13,15 +20,20 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <!-- <template v-slot:append>
+        <div class="pa-2">
+          <span>Made with Vue, Nuxt and Vuetify</span>
+        </div>
+      </template> -->
     </v-navigation-drawer>
-
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
         <h3 v-text="windowTitleResult"></h3>
       </div>
+      <v-spacer />
+      <v-chip class="ma-2" label>v2.1.0</v-chip>
     </v-app-bar>
-
     <v-content>
       <v-container style="margin-left:0px">
         <nuxt />
@@ -99,7 +111,7 @@ export default {
           break;
 
         default:
-          return routeName? routeName : "George Baldwin | Software Developer";
+          return routeName ? routeName : "George Baldwin | Software Developer";
       }
     }
   }
