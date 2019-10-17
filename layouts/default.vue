@@ -24,7 +24,7 @@
         <div class="pa-2">
           <span>Made with Vue, Nuxt and Vuetify</span>
         </div>
-      </template> -->
+      </template>-->
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
@@ -32,7 +32,14 @@
         <h3 v-text="windowTitleResult" style="padding-left:10px"></h3>
       </div>
       <v-spacer />
-      <v-chip class="ma-2" label>v2.1.0</v-chip>
+      <v-chip
+        class="ma-2"
+        href="https://github.com/Geobald/portfolio-site/releases"
+        target="_blank"
+        label
+      >
+        <v-icon left>mdi-label</v-icon>v1.0
+      </v-chip>
     </v-app-bar>
     <v-content>
       <v-container style="margin-left:0px">
