@@ -29,7 +29,7 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
       <div class="page-title">
-        <h3 v-text="windowTitleResult"></h3>
+        <h3 v-text="windowTitleResult" style="padding-left:10px"></h3>
       </div>
       <v-spacer />
       <v-chip class="ma-2" label>v2.1.0</v-chip>
