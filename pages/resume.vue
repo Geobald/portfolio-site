@@ -1,6 +1,7 @@
 <template>
   <v-layout>
     <v-container fluid>
+      <v-fade-transition>
       <v-row>
         <v-col cols="12" xs="12" sm="12" md="6">
           <!-- EXPERIENCE CARD -->
@@ -274,6 +275,7 @@
           </v-card>
         </v-col>
       </v-row>
+      </v-fade-transition>
     </v-container>
   </v-layout>
 </template>

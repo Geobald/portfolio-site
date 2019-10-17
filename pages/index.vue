@@ -2,10 +2,9 @@
   <v-layout>
     <v-container fluid>
       <v-row>
-        
+        <v-progress-circular indeterminate v-if="!profiletext"/>
         <!-- PICTURE CARD -->
         <v-col cols="12" xs="12" sm="12" md="4">
-          <v-progress-circular indeterminate v-if="!profiletext"/>
           <v-fade-transition>
           <v-card outlined height="100%" v-if="profiletext" v-show="true">
             <v-list-item three-line class="text-center">
@@ -50,7 +49,6 @@
 
         <!-- ABOUT ME CARD -->
         <v-col cols="12" xs="12" sm="12" md="8">
-          <v-progress-circular indeterminate v-if="!profiletext"/>
           <v-fade-transition>
           <v-card outlined height="100%" v-if="profiletext" v-show="true">
             <v-card-title class="headline">
