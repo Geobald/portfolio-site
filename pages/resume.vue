@@ -103,7 +103,7 @@
                     class="title font-weight-light"
                     style="padding-left:16px"
                   >Business Support Specialist</div>
-                  <v-card-text>As an Apple Certified Hardware and Software technician (ACMT) I worked hard to resolve issues with Apple products and helped customers with their queries on their devices whilst managing their expectations. I passed Apples rigorous four stage interview process to help business customers with their technical issues and expanded greatly on my soft skills whilst completing repairs and consultations in a timely manner.</v-card-text>
+                  <v-card-text>In this role, I was a Specialist in the heart of the busy world of Apple customer support. I took part in and speak at business events and looked after my own customer base and administration. I regularly collaborated with our customers to find the best solution for them using Apple technology by looking at their need, financials and proposed outcome and putting everything into perspective. This has given me the experience to multitask in a fast paced technology company with an ever-changing infrastructure. This role is where I started building FileMaker databases, starting with an employee satisfaction survey and analytics dashboard for managers to track feedback.</v-card-text>
                 </v-card>
               </v-timeline-item>
               <v-timeline-item color="grey lighten-1">
@@ -200,8 +200,8 @@
             <v-timeline dense>
               <v-timeline-item color="grey lighten-1">
                 <v-card flat>
-                  <div class="title font-weight-light" style="padding-left:16px">MCSD: App Builder</div>
-                  <v-card-text>Earners of the MCSD: App Builder certification have demonstrated the skills required to build modern mobile and/or web applications and services. Earning this certification qualifies an individual for a position as an application developer.</v-card-text>
+                  <div class="title font-weight-light" style="padding-left:16px">ACMT: Apple Cerfitied Mac Technician</div>
+                  <v-card-text>The Apple Certified iOS Technician ACiT course and certification verify the ability to perform troubleshooting and repair of iOS and Mac devices. The ACMT certification exams emphasise identifying and resolving common problems and using Apple Service and Support products and practices to effectively repair Apple hardware.</v-card-text>
                 </v-card>
               </v-timeline-item>
               <v-timeline-item color="grey lighten-1">
@@ -209,8 +209,8 @@
                   <div
                     class="title font-weight-light"
                     style="padding-left:16px"
-                  >MCSA: Web Applications</div>
-                  <v-card-text>Earners of the MCSA: Web Applications certification have demonstrated the skills required to implement modern web apps. They are qualified for a position as a web developer or web administrator.</v-card-text>
+                  >ACSP: Apple Cerfitied Support Professional</div>
+                  <v-card-text>ACSP is the highest support certification provided by Apple. The certification is suitable for support desk professionals, technical coordinators, and power users who provide Mac-based technical support or manage networks. ACSP proves detailed knowledge and skills for supporting the latest version macOS and understanding core functionality. Training includes configuring key services, performing basic troubleshooting, and verification that you can support multiple MacOS users.</v-card-text>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
@@ -238,7 +238,7 @@
               <v-timeline-item color="blue lighten-3">
                 <v-card flat>
                   <div class="title font-weight-light" style="padding-left:16px">FileMaker Certified Application Developer</div>
-                  <v-card-text>Earners of the MCSD: App Builder certification have demonstrated the skills required to build modern mobile and/or web applications and services. Earning this certification qualifies an individual for a position as an application developer.</v-card-text>
+                  <v-card-text>The FileMaker Certified Developer credential demonstrates to clients, peers and management an essential level of knowledge, experience, and skills in developing on the FileMaker Platform.</v-card-text>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
@@ -266,7 +266,7 @@
               <v-timeline-item color="yellow darken-2">
                 <v-card flat>
                   <div class="title font-weight-light" style="padding-left:16px">BA Hons Degree in Modern Music Composition</div>
-                  <v-card-text>Earners of the MCSD: App Builder certification have demonstrated the skills required to build modern mobile and/or web applications and services. Earning this certification qualifies an individual for a position as an application developer.</v-card-text>
+                  <v-card-text>The programme covers many key subject areas including music performance, instrumental and vocal technique, songwriting and arranging, recording, mixing, mastering, social media, business studies, music history, tour management, live events and national touring. The BA (Hons) programme incorporates a set of modules that cover a broad range of subject areas. These modules underpin the development of a well-rounded skill set associated with the requirements for a stable career in the music industry. Modules are grouped into four key strands – Musical Development, Popular Music Studies, Audio Production and Music Industry.</v-card-text>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
