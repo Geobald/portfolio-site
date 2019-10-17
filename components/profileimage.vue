@@ -1,20 +1,16 @@
 export
 <template>
   <div class="profile-img-container">
-    <div>
-      <v-img
-        :src="require('@/images/profileimage.jpg')"
-        aspect-ratio="1"
-        class="grey lighten-2 profile-img"
-        max-width="300"
-        max-height="400"
-      ></v-img>
+    <div style="padding:20px">
+      <v-avatar size="150">
+        <img :src="require('@/images/profileimage.jpg')" alt="George Baldwin" />
+      </v-avatar>
     </div>
 
-    <p class="profile-img-text">
-      <b>{{ header }}</b>
-    </p>
-    <p>{{ subtext }}</p>
+    <div style="padding-bottom:20px">
+      <v-list-item-title class="headline mb-1">{{header}}</v-list-item-title>
+      <v-list-item-subtitle>{{subtext}}</v-list-item-subtitle>
+    </div>
   </div>
 </template>
 
@@ -27,14 +23,14 @@ export default {
 <style>
 .profile-img {
   border-radius: 90%;
-  margin: 15%
+  margin: 15%;
 }
 
 .profile-img-container {
-  text-align: center
+  text-align: center;
 }
 
 .profile-img-text {
-  margin-bottom:0px !important;
+  margin-bottom: 0px !important;
 }
 </style>
