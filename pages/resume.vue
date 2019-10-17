@@ -15,10 +15,13 @@
             <v-card light flat>
               <v-container>
                 <v-layout align-left>
-                  <v-avatar height="110" width="80" tile>
-                    <img :src="require('@/images/skylogo.png')" alt="Sky" />
+                  <v-avatar height="85" width="80" tile>
+                    <img :src="require('@/images/skylogo.png')" 
+                    alt="Sky" 
+                    style="padding-top:30px"
+                    />
                   </v-avatar>
-                  <v-layout column justify-center style="padding-left:20px">
+                  <v-layout column justify-center style="padding-top:20px; padding-left:20px">
                     <div class="title font-weight-medium">Software Developer</div>
                     <div class="text font-weight-light">2015 - Present</div>
                   </v-layout>
@@ -201,8 +204,8 @@
             <v-timeline dense>
               <v-timeline-item color="grey lighten-1">
                 <v-card flat>
-                  <div class="title font-weight-light" style="padding-left:16px">ACMT: Apple Cerfitied Mac Technician</div>
-                  <v-card-text>The Apple Certified iOS Technician ACiT course and certification verify the ability to perform troubleshooting and repair of iOS and Mac devices. The ACMT certification exams emphasise identifying and resolving common problems and using Apple Service and Support products and practices to effectively repair Apple hardware.</v-card-text>
+                  <div class="title font-weight-light" style="padding-left:16px">Apple Certified Mac Technician</div>
+                  <v-card-text>This certification is for the repair and diagnostics of all Macintosh desktops, portables, and servers. This certification is required to perform warranted hardware repairs for an Apple Authorized Service Provider.</v-card-text>
                 </v-card>
               </v-timeline-item>
               <v-timeline-item color="grey lighten-1">
@@ -210,7 +213,7 @@
                   <div
                     class="title font-weight-light"
                     style="padding-left:16px"
-                  >ACSP: Apple Cerfitied Support Professional</div>
+                  >Apple Certified Support Professional</div>
                   <v-card-text>ACSP is the highest support certification provided by Apple. The certification is suitable for support desk professionals, technical coordinators, and power users who provide Mac-based technical support or manage networks. ACSP proves detailed knowledge and skills for supporting the latest version macOS and understanding core functionality. Training includes configuring key services, performing basic troubleshooting, and verification that you can support multiple MacOS users.</v-card-text>
                 </v-card>
               </v-timeline-item>
@@ -221,14 +224,14 @@
             <v-card light flat>
               <v-container>
                 <v-layout align-left>
-                  <v-avatar height="100" width="70" tile>
+                  <v-avatar height="70" width="70" tile>
                     <img
-                      :src="require('@/images/filemakerlogo.jpg')"
+                      :src="require('@/images/filemakerlogo.png')"
                       alt="FileMaker"
-                      style="padding-top:30px"
+
                     />
                   </v-avatar>
-                  <v-layout column justify-center style="padding-top:30px; padding-left: 30px">
+                  <v-layout column justify-center style="padding-left: 30px">
                     <div class="title font-weight-medium">FileMaker</div>
                     <div class="text font-weight-light">All Certifications</div>
                   </v-layout>
@@ -249,14 +252,13 @@
             <v-card light flat>
               <v-container>
                 <v-layout align-left>
-                  <v-avatar height="110" width="80" tile>
+                  <v-avatar height="80" width="80" tile>
                     <img
                       :src="require('@/images/unilogo.jpg')"
                       alt="University of Sussex"
-                      style="padding-top:30px"
                     />
                   </v-avatar>
-                  <v-layout column justify-center style="padding-top:30px; padding-left: 30px">
+                  <v-layout column justify-center style="padding-left: 30px">
                     <div class="title font-weight-medium">University of Sussex</div>
                     <div class="text font-weight-light">All Certifications</div>
                   </v-layout>
