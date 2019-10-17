@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <v-col>
-          <v-card outlined hover href="https://github.com/Geobald/RoyaltyEngine" target="_blank" >
+          <v-card outlined>
             <v-img
               class="white--text align-end"
               height="200px"
@@ -23,7 +23,7 @@
           </v-card>
         </v-col>
         <v-col>
-          <v-card outlined hover href="https://github.com/Geobald/party-parrot-chess" target="_blank">
+          <v-card outlined>
             <v-img
               class="white--text align-end"
               height="200px"
@@ -83,7 +83,7 @@
           </v-card>
         </v-col>
                 <v-col>
-          <v-card outlined hover href="https://github.com/Geobald/portfolio-site" target="_blank">
+          <v-card outlined>
             <v-img
               class="white--text align-end"
               height="200px"
