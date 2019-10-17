@@ -59,13 +59,13 @@
               </v-container>
             </v-card>
             <v-timeline dense>
-              <v-timeline-item color="yellow darken-2">
+              <v-timeline-item color="grey darken-2">
                 <v-card flat>
                   <div class="title font-weight-light" style="padding-left:16px">Hearts of London</div>
                   <v-card-text>This project required me to work in the heart of Farringdons diamond trade with Hearts of London, which was then still setting up their new offices on the high street. They wanted a beautiful and elegant UI to match with their surroundings that they could use to quote customers on weddings bands and customised diamonds. Brett (the company owner) and I successfully built the industries first online wedding band calculator, which allowed staff to build a band specification from scratch using real images from scanned in stock (which was also another bespoke part of the retail system I went on to build) to build a picture of the end product and give them real-time prices and margins from the Gemological Institute of America API that connected to the DeBeers exchange. By the time the store was open in late 2014, Brett and his team had a system that handled stock, send part orders to manufacturers, created quotes and matched the interior design of the immaculately presented store.</v-card-text>
                 </v-card>
               </v-timeline-item>
-              <v-timeline-item color="blue darken-2">
+              <v-timeline-item color="grey darken-2">
                 <v-card flat>
                   <div
                     class="title font-weight-light"
@@ -74,7 +74,7 @@
                   <v-card-text>For this project, I was asked to develop a new front and band end solution to manage attendance to all courses run by the University of Brighton Education department. This required connecting to an existing database via ODBC and creating an easy-to-use interface which could also be accessed via iPad. I worked closely with their IT department to make sure of an easy and almost seamless transition into using the newer system, and held bi-weekly hands-on sessions with the department so they could see how the system was progressing which also included demos and feedback sessions. This section of the system is now heavily used by a team of twenty UoBE employees to on-board, track, grade and report on students and attendance records.</v-card-text>
                 </v-card>
               </v-timeline-item>
-              <v-timeline-item color="red darken-2">
+              <v-timeline-item color="grey darken-2">
                 <v-card flat>
                   <div class="title font-weight-light" style="padding-left:16px">Virgin Atlantic</div>
                   <v-card-text>I worked with Virgin Atlantic along with another Senior Developer to help them build a system which enabled airline staff to conduct pre-flight checks on facilities and items required for safety reset. This was built primarily for use on iPad which allowed the staff to walk around a disembarked plane to check all standard safety measures were still in place and itinerary was replenished for new embarking customers. They could put in a flight number and model which brought up the exact flight record with a new checklist to keep for logging measures and could take a manual signature by the person in charge of the audit. We worked alongside safety teams based in Virgin Atlantic's HQ in Crawley to come up with an experience that was easy to use and complied with branding and Virgins own high software standards. To this day, Virgin remain one of iSOS biggest customers and were delighted with the results.</v-card-text>
