@@ -1,6 +1,8 @@
+# Build Status
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e1853c0e-1495-4cde-8e24-c43a0fb6c45f/deploy-status)](https://app.netlify.com/sites/pensive-varahamihira-7c86b5/deploys)
 
-# portfolio-site
+# Site Information
 
 > My portfolio site built with Nuxt.js
 
