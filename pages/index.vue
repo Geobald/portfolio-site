@@ -146,11 +146,13 @@
                   </td>
                   <td>Brighton, UK</td>
                 </tr>
-              </tbody>
-            </v-simple-table>
-            <v-divider />
-            <v-col>
-              <code style="width:100%">
+                <tr>
+                  <td>
+                    <b>Email:</b>
+                  </td>
+                  <td>
+                    <v-col style="padding-left:0px; padding-right:0px">
+                <code style="width:100%">
                 <div>
                   <span style="color:red"> let</span> $x <span style="color:red">=</span><span style="color:blue"> 'georgebaldwin'</span>;
                 </div>
@@ -162,7 +164,11 @@
                   <span style="color:purple"> console</span>.<span style="color:blue">log</span>($x <span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y <span style="color:red">+</span><span style="color:blue"> '.com'</span>);
                 </div>
               </code>
-            </v-col>
+              </v-col>
+                  </td>
+                </tr>
+              </tbody>
+            </v-simple-table>
           </v-card>
           </v-fade-transition>
         </v-col>
