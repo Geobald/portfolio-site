@@ -20,11 +20,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <!-- <template v-slot:append>
-        <div class="pa-2">
-          <span>Made with Vue, Nuxt and Vuetify</span>
-        </div>
-      </template>-->
+      
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="d-lg-none" @click.stop="drawer = !drawer" />
