@@ -97,7 +97,9 @@
                 <v-progress-linear value="45" color="green" height="25" rounded></v-progress-linear>
               </v-col>
               <v-col>
-                <v-btn :href="pdf" target="_blank" color="primary" download>Download CV</v-btn>
+                <v-btn :href="pdf" target="_blank" color="primary" download>
+                  <v-icon left>mdi-file-outline</v-icon> Download CV
+                  </v-btn>
               </v-col>
             </v-card-text>
           </v-card>
@@ -164,6 +166,12 @@
                   <span style="color:purple"> console</span>.<span style="color:blue">log</span>($x <span style="color:red">+</span><span style="color:blue">'@'</span><span style="color:red">+</span> $y <span style="color:red">+</span><span style="color:blue"> '.com'</span>);
                 </div>
               </code>
+              
+              </v-col>
+              <v-col style="padding-left:0px; padding-right:0px">
+                <v-btn color="secondary" style="width:100%" href="mailto:georgebaldwin@me.com">
+                  <v-icon left>mdi-email-outline</v-icon> Write to me
+                  </v-btn>
               </v-col>
                   </td>
                 </tr>
