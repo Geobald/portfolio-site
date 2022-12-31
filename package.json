@@ -11,10 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "file-loader": "^4.2.0",
-    "nuxt": "^2.0.0"
+    "file-loader": "^6.2.0",
+    "nuxt": "^2.10.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0"
+    "@nuxtjs/vuetify": "^1.12.3"
   }
 }
